@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>WarriARs.fun - Register</title>
+        <link rel="stylesheet" type="text/css" href="../static/login.css">
+        <link rel="icon" href="../static/favicon.png" type="image/x-icon" />
+        <script src="../static/jquery-3.2.1.min.js"></script>
+        <script src="../static/register.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+        <table class="login">
+            <tr>
+                <td>
+                    <img class="logo" src="../static/logo.png" alt="WarriARs.fun" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="failed"></span>
+                    <span class="succeed"></span>
+                </td>
+                <td></td>
+            </tr>
+            <tr class="reg">
+                <td>
+                    <input id="email" name="email" type="email" placeholder="you@email.com" value="" />
+                </td>
+                <td id="email"></td>
+            </tr>
+            <tr class="reg">
+                <td>
+                    <input id="password" name="password" type="password" placeholder="Password" value="" />
+                </td>
+                <td id="password"></td>
+            </tr>
+            <tr class="reg">
+                <td>
+                    <input id="verifyPassword" name="verifyPassword" type="password" placeholder="Repeat Password" value="" />
+                </td>
+                <td id="verifyPassword"></td>
+            </tr>
+            <tr class="reg">
+                <td>
+                    <input id="username" name="username" type="text" placeholder="YourNick" value="" />
+                </td>
+                <td id="username"></td>
+            </tr>
+            <tr class="reg">
+                <td>
+                    <div class="g-recaptcha" data-sitekey="6Le0UDIUAAAAABbUYbXU5tGuhFtyYeI4hxOh0fEw"></div>
+                </td>
+                <td></td>
+            </tr>
+            <tr class="reg">
+                <td><button id="submit" onclick="Register()" disabled>Register</button></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>

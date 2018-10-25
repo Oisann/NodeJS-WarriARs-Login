@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+table.login {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+table.login input {
+    margin-bottom: 10px;
+}
+
+span.failed {
+    color: #dd1313;
+}
+
+span.succeed {
+    color: #1f9f10;
+}
+
+img.logo {
+    width: 190px;
+}
+
+.testIcon {
+    position: absolute;
+    margin-top: -13.5px;
+}
